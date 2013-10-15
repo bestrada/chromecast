@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Generic Cast Player for Chromecast</title>
+    <link rel="stylesheet" href="./css/player/style.css" />
+  </head>
+  <body>
+      <div id="mediaElement"></div>
+      <!-- Common Definitions-->
+      <script type="text/javascript"
+              src="./js/player/logging.js"></script>
+      <script type="text/javascript"
+              src="./js/player/streamingType.js"></script>
+
+      <!-- Close Captions Support -->
+      <script type="text/javascript" src="./js/player/ttml.js"></script>
+      <script type="text/javascript"
+              src="./js/player/closeCaptionsLoader.js"></script>
+
+      <!-- DASH Support -->
+      <script type="text/javascript"
+              src="./js/player/dash-manifest.js"></script>
+      <script type="text/javascript" src="./js/player/dash-bmff.js"></script>
+
+      <!-- SmoothStreaming Support -->
+      <script type="text/javascript" src="./js/player/ss-manifest.js"></script>
+      <script type="text/javascript" src="./js/player/ss-bmff.js"></script>
+
+      <!-- DRM Support -->
+      <script type="text/javascript" src="./js/player/emeManager.js"></script>
+
+      <!-- Generic Player -->
+      <script type="text/javascript"
+              src="./js/player/representation.js"></script>
+      <script type="text/javascript"
+              src="./js/player/sourceBufferManager.js"></script>
+      <script type="text/javascript"
+              src="./js/player/mediaSourceManager.js"></script>
+      <script type="text/javascript"
+              src="./js/player/manifestLoader.js"></script>
+      <script type="text/javascript"
+              src="./js/player/adaptiveManager.js"></script>
+      <script type="text/javascript"
+              src="./js/player/fragmentManager.js"></script>
+      <script type="text/javascript" src="./js/player/basicPlayer.js"></script>
+
+      <!-- Remote control Support -->
+      <script type="text/javascript"
+        src="https://www.gstatic.com/cast/js/receiver/1.0/cast_receiver.js">
+      </script>
+      <script type="text/javascript"
+              src="./js/player/remotecontrol.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+body {
+  font-family: "Droid Serif", serif;
+  color: #444;
+  line-height: 150%;
+  overflow: hidden !important;
+}
+
+video {
+  border: solid black 1px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+}
+
+::cue {
+  color: #fff;
+  font: 0.8em sans-serif;
+}
+::cue .warning {
+  color: red;
+  font: bold;
+}
